@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>
+		JS day 2 assignment
+	</title>
+</head>
+<body>
+     
+     <script type="text/javascript">
+     // Print table 5
+
+     var i=1;
+
+     for(;i<=20;i++)
+     {
+     	console.log("5*"+i+"="+i*5);
+     }
+
+     // 5 var holding 5 subject mark
+
+     var english = 90;
+     var tamil = 87;
+     var maths =99;
+     var science =90;
+     var social =87;
+
+     // Calculate % and find grades
+
+     var per=((english+tamil+maths+science+social)/500.0)*100
+
+     console.log("percentage ="+per);
+      
+      if(per>90)
+      {
+      	console.log("O grade");
+      }
+      else if(per<=90 && per>80)
+      {
+      	console.log("A grade");
+      }
+      else if( per<=80 && per>70) {
+      	console.log("B grade");
+      }
+      else if( per<=70 && per>60) {
+      	console.log("C grade");
+      }
+      else if(per<=60 && per>50)
+      {
+      	console.log("D grade");
+      }
+      else
+      {
+      	console.log("F");
+      }
+
+
+
+     </script>
+</body>
+</html>
