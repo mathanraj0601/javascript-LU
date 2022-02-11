@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>
+		JS day 4 assignment
+	</title>
+</head>
+<body>
+
+<script type="text/javascript">
+	//objects
+
+	var students=[
+	{
+		name:"jack",
+		age:16,
+		registerno:20201,
+		mark:467
+	},  
+	{
+		name:"jim",
+		age:16,
+		registerno:20202,
+		mark:476
+	},
+	{
+		name:"john",
+		age:15,
+		registerno:20203,
+		mark:498
+	},
+	{
+	    name:"ram",
+		age:15,
+		registerno:20204,
+		mark:487
+	},
+	{
+		name:"maddy",
+		age:16,
+		registerno:20205,
+		mark:476
+	}
+	];
+	 
+	 console.log("using for loop");	
+
+	for(var i=0;i<students.length;i++)
+	{
+		console.log("name ="+students[i].name+" age ="+students[i].age);
+	}
+	
+	console.log("using forEach loop");
+	students.forEach(
+    function (list,i) {
+    console.log("register-number ="+list.registerno+" mark ="+list.mark);
+	}
+    )
+
+
+</script>
+</body>
+</html>
